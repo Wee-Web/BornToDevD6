@@ -1,0 +1,113 @@
+//Test//
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index - </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: #777;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .featured-products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .product-card p {
+            color: #555;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TTECH SHOP</h1>
+    </header>
+    <nav>
+        <a href="index.html">หน้าแรก</a>
+        <a href="products.html">สินค้า</a>
+        <a href="profile.html">เกี่ยวกับเรา</a>
+        <a href="contact.html">ติดต่อ</a>
+    </nav>
+    <div class="container">
+        <h2>สินค้าแนะนำ</h2>
+        <p>ค้นพบสินค้าใหม่ล่าสุดและสินค้ายอดนิยมของเรา</p>
+
+        <div class="featured-products">
+            <div class="product-card">
+                <img src="https://cdn.glitch.global/0eb41773-7360-45a9-bb49-c623e30c99b0/Smartwatch?v=1749037287182" alt="สินค้า 1">
+                <h3>Smartwatch รุ่น ProHealth</h3>
+                <p>นาฬิกาอัจฉริยะที่มาพร้อมฟังก์ชันติดตามสุขภาพครบครัน เช่น วัดอัตราการเต้นของหัวใจ, ติดตามการนอนหลับ และโหมดออกกำลังกายหลากหลายชนิด</p>
+                <p>ราคา: ฿4,999</p>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.glitch.global/0eb41773-7360-45a9-bb49-c623e30c99b0/AeroPods?v=1749037595542" alt="สินค้า 2">
+                <h3>หูฟังไร้สาย AeroPods Elite</h3>
+                <p>หูฟังไร้สายคุณภาพเสียงคมชัด พร้อมระบบตัดเสียงรบกวน เหมาะสำหรับการฟังเพลงและการโทรในทุกสถานการณ์</p>
+                <p>ราคา: ฿2,850</p>
+            </div>
+            <div class="product-card">
+                <img src="https://cdn.glitch.global/0eb41773-7360-45a9-bb49-c623e30c99b0/Barista?v=1749037707949" alt="สินค้า 3">
+                <h3>เครื่องชงกาแฟเอสเปรสโซ Barista Pro</h3>
+                <p>เครื่องชงกาแฟเอสเปรสโซสำหรับบ้าน ให้คุณได้ดื่มกาแฟรสชาติเยี่ยมเหมือนบาริสต้า3</p>
+                <p>ราคา: ฿7,990</p>
+            </div>
+            </div>
+        <p style="text-align: center; margin-top: 30px;">
+            <a href="products.html" style="background-color: #007BFF; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">ดูสินค้าทั้งหมด</a>
+        </p>
+    </div>
+</body>
+</html>
